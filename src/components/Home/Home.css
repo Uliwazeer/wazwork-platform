@@ -55,6 +55,66 @@
   transform: translateY(-4px);
 }
 
+/* Stats Bar */
+.stats-bar-wrapper {
+  background: #ffffff;
+  border-top: 1px solid rgba(0, 0, 0, 0.04);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.stat-card {
+  background: #f8fafc;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  transition: transform 0.25s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  background: #ffffff;
+  box-shadow: 0 10px 20px rgba(0, 175, 219, 0.08);
+}
+
+.fw-extrabold {
+  font-weight: 800;
+}
+
+/* How It Works Section */
+.how-it-works-section {
+  background-color: #f6f8fb;
+}
+
+.section-title {
+  color: #10375e;
+}
+
+.step-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 16px 32px rgba(0, 175, 219, 0.12) !important;
+}
+
+.step-badge {
+  font-size: 2.2rem;
+  width: 64px;
+  height: 64px;
+  background: rgba(0, 175, 219, 0.1);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CTA Banner */
+.cta-banner {
+  background: linear-gradient(135deg, #10375e 0%, #00afdb 100%);
+  box-shadow: 0 20px 40px rgba(0, 175, 219, 0.25);
+}
+
 /* Desktop screen breakpoint */
 @media (min-width: 992px) {
   .head {
@@ -73,7 +133,6 @@
     flex: 1 1 50%;
   }
 
-  /* Alternating layout for left/right sections */
   .head-right .head {
     flex-direction: row-reverse;
   }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Services.css";
 import services from "./pictures/services.svg";
 import ai from "./pictures/Icons/Ai.svg";
@@ -17,7 +18,15 @@ const Service = ({ icon_container, title, content, color }) => {
         {icon_container}
       </div>
       <h3 className="title">{title}</h3>
-      <div className="content">{content}</div>
+      <div className="content mb-3">{content}</div>
+      <div className="mt-auto w-100 pt-3 border-top">
+        <Link
+          to="/contact"
+          className="btn btn-outline-primary btn-sm rounded-pill w-100 fw-semibold py-2"
+        >
+          Request Service &rarr;
+        </Link>
+      </div>
     </div>
   );
 };
@@ -26,16 +35,23 @@ const Head = () => {
   return (
     <div className="head">
       <div className="head-img">
-        <img alt="" src={services} />
+        <img alt="Wazwork technical services" src={services} />
       </div>
       <div className="content">
-        <h2>Our services</h2>
+        <span className="badge bg-light text-primary border rounded-pill px-3 py-2 fw-semibold mb-3">
+          On-Demand Freelance Services
+        </span>
+        <h2>Professional Technical Services for Modern Businesses</h2>
         <p>
-          our service depends on what customers need from us. After giving a
-          brief description of our services on the main page, customers can
-          communicate to discuss the project to be implemented to reach the best
-          solution and implementation immediately.
+          Whether you need a full agile team or a single domain expert, Wazwork provides
+          flexible engagement models. From initial scope estimation to deployment, we deliver
+          tailored solutions that integrate seamlessly with your product roadmap.
         </p>
+        <div>
+          <Link to="/contact" className="contact-btn text-decoration-none text-center">
+            🚀 Order a Service
+          </Link>
+        </div>
       </div>
     </div>
   );
@@ -44,7 +60,7 @@ const Head = () => {
 export const Main = () => {
   return (
     <div className="main">
-      <h2>Design</h2>
+      <h2>Design & Creative Services</h2>
       <div className="services-container">
         <Service
           color={"#9c19c9"}
@@ -77,7 +93,8 @@ export const Main = () => {
           }
         />
       </div>
-      <h2>Programming</h2>
+
+      <h2>Engineering & Intelligence</h2>
       <div className="services-container">
         <Service
           color={"#ffaf00"}
@@ -118,7 +135,7 @@ export const Main = () => {
 
 const Services = () => {
   return (
-    <div>
+    <div className="services-page">
       <Head />
       <Main />
     </div>

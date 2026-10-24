@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Products.css";
 import ProductImg from "./imgs/products.svg";
 
@@ -6,14 +7,19 @@ const Head = () => {
   return (
     <div className="row products-head px-3 mx-0 py-5">
       <div className="col-md-6 px-4">
-        <h2 className="fw-bold mb-3">Products & Solutions</h2>
+        <span className="badge bg-light text-primary border rounded-pill px-3 py-2 fw-semibold mb-3">
+          Portfolio & Digital Products
+        </span>
+        <h2 className="fw-bold mb-3">Turnkey Products & Custom Builds</h2>
         <p className="lead fs-6 text-muted">
-          Explore our range of innovative digital products and technical solutions.
-          Designed by the Wazwork team to empower clients, accelerate workflows,
-          and deliver high-impact results.
+          Explore our range of innovative digital products, client case studies, and engineering solutions.
+          Designed by Wazwork to solve real-world problems and scale businesses.
         </p>
+        <Link to="/contact" className="contact-btn text-decoration-none text-center">
+          🚀 Request a Custom Build
+        </Link>
       </div>
-      <div className="col-md-6 text-center">
+      <div className="col-md-6 text-center mt-4 mt-md-0">
         <img
           src={ProductImg}
           alt="products"
@@ -32,7 +38,7 @@ const NavProduct = ({ content, active, onClick }) => {
       onClick={onClick}
       className={`btn ${
         active ? "btn-primary shadow-sm" : "btn-outline-primary"
-      } rounded-pill m-2 px-4`}
+      } rounded-pill m-1 px-4`}
     >
       {content}
     </button>
@@ -82,6 +88,20 @@ const productItems = [
     desc: "Machine learning pipeline predicting user behavior and lifetime value with high accuracy.",
     tag: "Data Science",
   },
+  {
+    id: 7,
+    title: "Cloud Microservices API",
+    category: "Web development",
+    desc: "Ultra-fast Go & Node.js backend infrastructure handling high concurrency with zero downtime.",
+    tag: "Backend",
+  },
+  {
+    id: 8,
+    title: "Security Penetration Audit",
+    category: "Web development",
+    desc: "Comprehensive vulnerability assessment report and hardening guidelines for modern web apps.",
+    tag: "Cybersecurity",
+  },
 ];
 
 const Products = () => {
@@ -120,7 +140,7 @@ const Products = () => {
         <div className="row g-4 mt-2 text-start justify-content-center">
           {filteredProducts.map((item) => (
             <div key={item.id} className="col-md-6 col-lg-4">
-              <div className="card h-100 border-0 shadow-sm p-4 rounded-4 product-card">
+              <div className="card h-100 border-0 shadow-sm p-4 rounded-4 product-card d-flex flex-column">
                 <div className="d-flex justify-content-between align-items-center mb-3">
                   <span className="badge bg-light text-primary rounded-pill px-3 py-2 border">
                     {item.tag}
@@ -128,10 +148,17 @@ const Products = () => {
                   <small className="text-muted fw-semibold">{item.category}</small>
                 </div>
                 <h5 className="fw-bold mb-2">{item.title}</h5>
-                <p className="text-secondary small mb-3">{item.desc}</p>
+                <p className="text-secondary small mb-4">{item.desc}</p>
                 <div className="mt-auto pt-3 border-top d-flex justify-content-between align-items-center">
-                  <span className="text-primary fw-semibold small">Explore solution</span>
-                  <span className="text-primary">&rarr;</span>
+                  <Link
+                    to="/contact"
+                    className="text-primary fw-semibold small text-decoration-none"
+                  >
+                    Request Similar Build &rarr;
+                  </Link>
+                  <span className="badge bg-light text-success border rounded-pill px-2 py-1 small">
+                    Verified
+                  </span>
                 </div>
               </div>
             </div>

@@ -66,7 +66,7 @@ const Navbar = () => {
                 onClick={closeNav}
                 className={`nav-link-custom ${location.pathname === "/team" ? "active" : ""}`}
               >
-                Our Team
+                Talent & Experts
               </Link>
             </li>
             <li className="mx-lg-2 nav-item">
@@ -75,20 +75,26 @@ const Navbar = () => {
                 onClick={closeNav}
                 className={`nav-link-custom ${location.pathname === "/products" ? "active" : ""}`}
               >
-                Products
+                Solutions
+              </Link>
+            </li>
+            <li className="mx-lg-2 nav-item">
+              <Link
+                to="/contact"
+                onClick={closeNav}
+                className={`nav-link-custom ${location.pathname === "/contact" ? "active" : ""}`}
+              >
+                Contact
               </Link>
             </li>
             <li className="mx-lg-2 nav-item mt-2 mt-lg-0">
-              <button
-                onClick={() => {
-                  closeNav();
-                  const el = document.getElementById("contact");
-                  if (el) el.scrollIntoView({ behavior: "smooth" });
-                }}
-                className="btn btn-primary rounded-pill px-4 py-2 nav-contact-btn"
+              <Link
+                to="/contact"
+                onClick={closeNav}
+                className="btn btn-primary rounded-pill px-4 py-2 nav-contact-btn text-decoration-none"
               >
-                Get in Touch
-              </button>
+                🚀 Hire Us / Request Project
+              </Link>
             </li>
           </ul>
         </div>

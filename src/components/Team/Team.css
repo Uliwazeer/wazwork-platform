@@ -10,14 +10,15 @@
     box-shadow: 0 4px 18px rgba(0, 0, 0, 0.03);
     transition: all 0.3s ease;
     width: 100%;
-    max-width: 260px;
+    max-width: 270px;
     margin: 0 auto;
+    position: relative;
 }
 
 .member:hover {
     transform: translateY(-8px);
-    box-shadow: 0 14px 30px rgba(0, 175, 219, 0.15);
-    border-color: rgba(0, 175, 219, 0.25);
+    box-shadow: 0 16px 36px rgba(0, 175, 219, 0.16);
+    border-color: rgba(0, 175, 219, 0.3);
 }
 
 .img-container {
@@ -27,6 +28,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 16px;
+    position: relative;
 }
 
 .img-container img {
@@ -39,8 +41,20 @@
     transition: transform 0.25s ease;
 }
 
+.online-indicator {
+    position: absolute;
+    bottom: 6px;
+    right: 12px;
+    width: 18px;
+    height: 18px;
+    background-color: #10b981;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(16, 185, 129, 0.6);
+}
+
 .member:hover .img-container img {
-    transform: scale(1.05);
+    transform: scale(1.04);
 }
 
 .mostafa-img {
@@ -53,7 +67,7 @@
     font-size: 1.15rem;
     font-weight: 700;
     color: #10375e;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
 }
 
 .member .info h5 {

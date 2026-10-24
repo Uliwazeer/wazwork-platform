@@ -1,0 +1,71 @@
+.contact-page {
+  background-color: #f6f8fb;
+  min-height: 80vh;
+}
+
+.contact-title {
+  color: #10375e;
+  letter-spacing: -0.5px;
+}
+
+.max-w-700 {
+  max-width: 700px;
+}
+
+.toggle-tabs {
+  display: inline-flex;
+  background-color: #e2e8f0;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: #64748b;
+  font-size: 0.95rem;
+  transition: all 0.25s ease;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background-color: #ffffff;
+  color: #00afdb;
+}
+
+.contact-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05) !important;
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08) !important;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #00afdb;
+  box-shadow: 0 0 0 0.25rem rgba(0, 175, 219, 0.18);
+}
+
+.success-icon {
+  width: 80px;
+  height: 80px;
+  background-color: rgba(0, 175, 219, 0.1);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 575.98px) {
+  .toggle-tabs {
+    flex-direction: column;
+    border-radius: 20px !important;
+    width: 100%;
+  }
+
+  .tab-btn {
+    width: 100%;
+    margin-bottom: 4px;
+  }
+}
