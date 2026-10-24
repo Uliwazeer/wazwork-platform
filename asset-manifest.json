@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/wazwork-platform/static/css/main.9a9182c8.css",
+    "main.js": "/wazwork-platform/static/js/main.cacbe658.js",
+    "static/media/Our Team.svg": "/wazwork-platform/static/media/Our Team.80d360abaec811f0cdfa864842b2a8a4.svg",
+    "static/media/Home Page.png": "/wazwork-platform/static/media/Home Page.723d52170c81e58291e9.png",
+    "static/media/mostafa-kadry.jpeg": "/wazwork-platform/static/media/mostafa-kadry.6318aa2547b4a6161fbe.jpeg",
+    "static/media/products.svg": "/wazwork-platform/static/media/products.f66500cbfe69f64a65c820a78b397fef.svg",
+    "static/media/services.svg": "/wazwork-platform/static/media/services.4e650e786f01207638845f3b15a19372.svg",
+    "static/media/Ali Wazir.png": "/wazwork-platform/static/media/Ali Wazir.b2632a2f6fdf8db4bdd6.png",
+    "static/media/Eman Mohammed.png": "/wazwork-platform/static/media/Eman Mohammed.5e17104cb467cb1ac8cc.png",
+    "static/media/Mai Ahmed.png": "/wazwork-platform/static/media/Mai Ahmed.22f639d2e05a011cfe5d.png",
+    "static/media/Ahmed Hassan.png": "/wazwork-platform/static/media/Ahmed Hassan.890354160a03f7f1d961.png",
+    "static/media/Who we are.png": "/wazwork-platform/static/media/Who we are.fbbe32b09027d1573e51.png",
+    "static/media/Why Wazwork.png": "/wazwork-platform/static/media/Why Wazwork.1c83ef2dd9bf8980b461.png",
+    "static/media/we design and build.png": "/wazwork-platform/static/media/we design and build.97be2e2976605c23a4e9.png",
+    "static/media/Eslam Ashraf.png": "/wazwork-platform/static/media/Eslam Ashraf.9c30e969e220bf0e858a.png",
+    "static/media/Rabaa Wazeer.png": "/wazwork-platform/static/media/Rabaa Wazeer.834b5a144f7ff4eb503f.png",
+    "static/media/Amr Salah.png": "/wazwork-platform/static/media/Amr Salah.354c30190f59550c2a8b.png",
+    "static/media/Dalia Mahmoud.png": "/wazwork-platform/static/media/Dalia Mahmoud.c8f30a3101b3610331ed.png",
+    "static/media/Mahmoud Ibrahim.png": "/wazwork-platform/static/media/Mahmoud Ibrahim.c339ab4381cce1b85c26.png",
+    "static/media/Logo.svg": "/wazwork-platform/static/media/Logo.513e3a932b19820eb8809cadc613612a.svg",
+    "static/media/graphicDesign.svg": "/wazwork-platform/static/media/graphicDesign.3fe087265c113f217f983a4ccb0b1017.svg",
+    "static/media/Ai.svg": "/wazwork-platform/static/media/Ai.6dfbfd805f67f9ba515b9c7a09b3d27c.svg",
+    "static/media/Backend.svg": "/wazwork-platform/static/media/Backend.715b2954c9ba04ebead1c4229b96d429.svg",
+    "static/media/dataAnalysis.svg": "/wazwork-platform/static/media/dataAnalysis.ac4ea12943b3548414995dedba49c0a0.svg",
+    "static/media/dataScience.svg": "/wazwork-platform/static/media/dataScience.c5fe81c65cf55dd7d19f5389a60ac787.svg",
+    "static/media/Frontend.svg": "/wazwork-platform/static/media/Frontend.30754e921f492360da4512284508bf5b.svg",
+    "static/media/Marketing.svg": "/wazwork-platform/static/media/Marketing.f4220bb071ea228a22a23ce3ce2fea0b.svg",
+    "static/media/ui-ux.svg": "/wazwork-platform/static/media/ui-ux.18d765392cf39862fc18fbd392406828.svg",
+    "static/media/LinkedIn.svg": "/wazwork-platform/static/media/LinkedIn.83819083eba6ca4ecdeb462a168f93cc.svg",
+    "static/media/Twitter.svg": "/wazwork-platform/static/media/Twitter.4e51c0db710055b8703db1d39a7bbd65.svg",
+    "static/media/Facebook.svg": "/wazwork-platform/static/media/Facebook.088e60079f12fafa9fafe6bc9a2fd39e.svg",
+    "index.html": "/wazwork-platform/index.html",
+    "static/media/Phone.svg": "/wazwork-platform/static/media/Phone.b562e94b45bc367cf0f80ee4b9667395.svg",
+    "main.9a9182c8.css.map": "/wazwork-platform/static/css/main.9a9182c8.css.map",
+    "main.cacbe658.js.map": "/wazwork-platform/static/js/main.cacbe658.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a9182c8.css",
+    "static/js/main.cacbe658.js"
+  ]
+}
