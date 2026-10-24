@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wazwork-platform/static/css/main.9a9182c8.css",
-    "main.js": "/wazwork-platform/static/js/main.cacbe658.js",
+    "main.css": "/wazwork-platform/static/css/main.7c4f7e1f.css",
+    "main.js": "/wazwork-platform/static/js/main.842d8629.js",
     "static/media/Our Team.svg": "/wazwork-platform/static/media/Our Team.80d360abaec811f0cdfa864842b2a8a4.svg",
     "static/media/Home Page.png": "/wazwork-platform/static/media/Home Page.723d52170c81e58291e9.png",
     "static/media/mostafa-kadry.jpeg": "/wazwork-platform/static/media/mostafa-kadry.6318aa2547b4a6161fbe.jpeg",
@@ -19,6 +19,7 @@
     "static/media/Amr Salah.png": "/wazwork-platform/static/media/Amr Salah.354c30190f59550c2a8b.png",
     "static/media/Dalia Mahmoud.png": "/wazwork-platform/static/media/Dalia Mahmoud.c8f30a3101b3610331ed.png",
     "static/media/Mahmoud Ibrahim.png": "/wazwork-platform/static/media/Mahmoud Ibrahim.c339ab4381cce1b85c26.png",
+    "static/media/Logo-light.svg": "/wazwork-platform/static/media/Logo-light.ccc5edcf5e7e167855db187fc7d669f5.svg",
     "static/media/Logo.svg": "/wazwork-platform/static/media/Logo.513e3a932b19820eb8809cadc613612a.svg",
     "static/media/graphicDesign.svg": "/wazwork-platform/static/media/graphicDesign.3fe087265c113f217f983a4ccb0b1017.svg",
     "static/media/Ai.svg": "/wazwork-platform/static/media/Ai.6dfbfd805f67f9ba515b9c7a09b3d27c.svg",
@@ -28,16 +29,16 @@
     "static/media/Frontend.svg": "/wazwork-platform/static/media/Frontend.30754e921f492360da4512284508bf5b.svg",
     "static/media/Marketing.svg": "/wazwork-platform/static/media/Marketing.f4220bb071ea228a22a23ce3ce2fea0b.svg",
     "static/media/ui-ux.svg": "/wazwork-platform/static/media/ui-ux.18d765392cf39862fc18fbd392406828.svg",
+    "index.html": "/wazwork-platform/index.html",
     "static/media/LinkedIn.svg": "/wazwork-platform/static/media/LinkedIn.83819083eba6ca4ecdeb462a168f93cc.svg",
     "static/media/Twitter.svg": "/wazwork-platform/static/media/Twitter.4e51c0db710055b8703db1d39a7bbd65.svg",
     "static/media/Facebook.svg": "/wazwork-platform/static/media/Facebook.088e60079f12fafa9fafe6bc9a2fd39e.svg",
-    "index.html": "/wazwork-platform/index.html",
     "static/media/Phone.svg": "/wazwork-platform/static/media/Phone.b562e94b45bc367cf0f80ee4b9667395.svg",
-    "main.9a9182c8.css.map": "/wazwork-platform/static/css/main.9a9182c8.css.map",
-    "main.cacbe658.js.map": "/wazwork-platform/static/js/main.cacbe658.js.map"
+    "main.7c4f7e1f.css.map": "/wazwork-platform/static/css/main.7c4f7e1f.css.map",
+    "main.842d8629.js.map": "/wazwork-platform/static/js/main.842d8629.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a9182c8.css",
-    "static/js/main.cacbe658.js"
+    "static/css/main.7c4f7e1f.css",
+    "static/js/main.842d8629.js"
   ]
 }
