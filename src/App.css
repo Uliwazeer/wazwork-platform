@@ -7,23 +7,59 @@ html {
 body {
   overflow-x: hidden;
   font-family: 'Open Sans', 'Roboto', sans-serif;
+  color: #2b3340;
+  background-color: #ffffff;
 }
 
 .bg-color {
   background-color: #f6f8fb !important;
 }
 
+/* Brand Colors */
+.text-primary {
+  color: #00afdb !important;
+}
+
+.btn-primary {
+  background-color: #00afdb !important;
+  border-color: #00afdb !important;
+  color: #ffffff !important;
+  transition: all 0.25s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #0090b5 !important;
+  border-color: #0090b5 !important;
+  box-shadow: 0 4px 14px rgba(0, 175, 219, 0.35) !important;
+}
+
+.btn-outline-primary {
+  color: #00afdb !important;
+  border-color: #00afdb !important;
+  transition: all 0.25s ease;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+  background-color: #00afdb !important;
+  border-color: #00afdb !important;
+  color: #ffffff !important;
+  box-shadow: 0 4px 14px rgba(0, 175, 219, 0.25) !important;
+}
+
 .contact-btn {
   border-radius: 30px;
   background-color: #00afdb;
   border: none;
-  padding: 13px 24px;
+  padding: 13px 26px;
   width: 160px;
   color: white;
   font-weight: 600;
   cursor: pointer;
   transition: all 0.25s ease;
   box-shadow: 0 4px 12px rgba(0, 175, 219, 0.25);
+  display: inline-block;
 }
 
 .contact-btn:hover {

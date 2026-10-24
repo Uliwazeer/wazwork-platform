@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
 import Products from "./components/Products/Products.js";
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Services from "./components/Services/Services";
