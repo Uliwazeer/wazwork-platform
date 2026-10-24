@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# Wazwork Platform 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Official web platform for **Wazwork** — an integrated digital agency and tech consulting firm delivering high-performance web development, UI/UX design, AI solutions, data science, and marketing services.
 
-## Available Scripts
+🌐 **Live Demo:** [https://uliwazeer.github.io/wazwork-platform](https://uliwazeer.github.io/wazwork-platform)  
+📦 **Repository:** [https://github.com/Uliwazeer/wazwork-platform](https://github.com/Uliwazeer/wazwork-platform)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Features & Sections
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Home Page:**
+  - Dynamic hero section showcasing core services and value propositions.
+  - Interactive "Contact us" actions with smooth scrolling.
+  - Overview of company vision and technical strengths.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Services:**
+  - **Design:** UI/UX Design, Graphic Design, Digital Marketing, Data Analysis.
+  - **Programming:** Artificial Intelligence, Frontend Web Development, Backend Architecture, Data Science.
+  - Interactive cards with customized color branding and smooth hover effects.
 
-### `npm test`
+- **Our Team:**
+  - Interactive team showcase with professional member profiles across AI, Design, Full-Stack, and Security.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Products & Solutions:**
+  - Categorized product gallery with real-time filtering (UI/UX, Web Development, Data Science, AI, Marketing).
+  - Modern card layouts with tags and solution overviews.
 
-### `npm run build`
+- **Footer & Engagement:**
+  - Direct telephone and email contact.
+  - Social media integration (Facebook, Twitter, LinkedIn).
+  - Interactive Newsletter subscription form.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Framework:** [React 18](https://reactjs.org/)
+- **Routing:** [React Router v6](https://reactrouter.com/)
+- **Styling:** Bootstrap 5 & Custom CSS3
+- **Icons & Graphics:** SVG vector assets & custom branding
+- **Deployment:** GitHub Pages (`gh-pages`)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Getting Started
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Node.js](https://nodejs.org/) (v16.x or newer recommended)
+- `npm` or `yarn`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Uliwazeer/wazwork-platform.git
+   cd wazwork-platform
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Run the development server:
+   ```bash
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📦 Building & Deployment
 
-### Analyzing the Bundle Size
+### Build for Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run build
+```
+Creates an optimized production bundle inside the `build/` directory.
 
-### Making a Progressive Web App
+### Deploy to GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+npm run deploy
+```
+Automatically builds the project and deploys it to the `gh-pages` branch.
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 👥 Wazwork Team
 
-### Deployment
+- **Uli Wazeer** — AI Engineer & Founder
+- **Amr Salah** — UI/UX Designer
+- **Mostafa Kadry** — Web Developer
+- **Eslam Ashraf** — Web Developer
+- **Sayed Gomaa** — Data Scientist
+- **Rabaa Wazeer** — Data Analyst
+- **Mai Ahmed** — Frontend Developer
+- **Eman Mohammed** — Backend Developer
+- **Dalia Mahmoud** — Web Developer
+- **Mahmoud Ibrahim** — Web Penetration Tester
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is proprietary and maintained by the **Wazwork** team. All rights reserved.

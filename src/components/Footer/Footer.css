@@ -1,0 +1,28 @@
+.end-footer {
+    background-color: #10375e;
+    color: #fff;
+}
+
+.footer-logo {
+    height: 20px;
+}
+
+.footer-link {
+    transition: color 0.2s ease, transform 0.2s ease;
+    display: inline-block;
+}
+
+.footer-link:hover {
+    color: #00afdb !important;
+    transform: translateX(4px);
+}
+
+.social-icon {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    display: inline-block;
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    opacity: 0.85;
+}

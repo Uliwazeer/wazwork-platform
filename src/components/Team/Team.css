@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.head {
+    background-color: #f6f8fb;
+    display: flex;
+    margin-bottom: 70px;
+    justify-content: space-evenly;
+}
+
+.head .content {
+    flex: 5 1 0px;
+    order: -1;
+    padding: 10% 5%;
+    text-align: justify;
+}
+
+.head .head-img {
+    flex: 6 1 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 60px;
+    transition: transform 0.3s ease;
+}
+
+.member:hover {
+    transform: translateY(-6px);
+}
+
+.img-container {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.img-container img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+.members-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 80px 0 0 0;
+    gap: 20px;
+}
+
+.mostafa-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+@media only screen and (min-width: 300px) {
+
+    /* For mobile phones: */
+    .members-container {
+        grid-template-columns: auto;
+    }
+
+    .head {
+        flex-direction: column;
+    }
+
+    .head .content {
+        order: 1;
+    }
+
+    .head-img img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For tablet: */
+    .members-container {
+        grid-template-columns: auto auto;
+    }
+
+    .head {
+        flex-direction: column;
+    }
+
+    .head .content {
+        order: 1;
+    }
+
+    .head-img img {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 961px) {
+
+    /* For tablet: */
+    .members-container {
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .head {
+        flex-direction: row;
+    }
+
+    .head .content {
+        order: -1;
+    }
+
+
+}
+
+
+/*
+.members-title {
+    font-weight: 800;
+    font-family: monospace;
+}
+
+.team {
+    background-color: #f6f8fb;
+    padding: 50px 100px;
+}
+
+.ourTeam-section {
+    font-family: "Rubik", sans-serif;
+    font-weight: 700;
+}*/

@@ -1,0 +1,19 @@
+.products-head {
+    background-color: #F6F8FB;
+    align-items: center;
+}
+
+.nav-products-container {
+    width: 100%;
+}
+
+.product-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 28px rgba(0, 175, 219, 0.12) !important;
+}
