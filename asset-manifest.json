@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wazwork-platform/static/css/main.7c4f7e1f.css",
-    "main.js": "/wazwork-platform/static/js/main.842d8629.js",
+    "main.css": "/wazwork-platform/static/css/main.1451228e.css",
+    "main.js": "/wazwork-platform/static/js/main.1f2022e5.js",
     "static/media/Our Team.svg": "/wazwork-platform/static/media/Our Team.80d360abaec811f0cdfa864842b2a8a4.svg",
     "static/media/Home Page.png": "/wazwork-platform/static/media/Home Page.723d52170c81e58291e9.png",
     "static/media/mostafa-kadry.jpeg": "/wazwork-platform/static/media/mostafa-kadry.6318aa2547b4a6161fbe.jpeg",
@@ -34,11 +34,11 @@
     "static/media/Twitter.svg": "/wazwork-platform/static/media/Twitter.4e51c0db710055b8703db1d39a7bbd65.svg",
     "static/media/Facebook.svg": "/wazwork-platform/static/media/Facebook.088e60079f12fafa9fafe6bc9a2fd39e.svg",
     "static/media/Phone.svg": "/wazwork-platform/static/media/Phone.b562e94b45bc367cf0f80ee4b9667395.svg",
-    "main.7c4f7e1f.css.map": "/wazwork-platform/static/css/main.7c4f7e1f.css.map",
-    "main.842d8629.js.map": "/wazwork-platform/static/js/main.842d8629.js.map"
+    "main.1451228e.css.map": "/wazwork-platform/static/css/main.1451228e.css.map",
+    "main.1f2022e5.js.map": "/wazwork-platform/static/js/main.1f2022e5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c4f7e1f.css",
-    "static/js/main.842d8629.js"
+    "static/css/main.1451228e.css",
+    "static/js/main.1f2022e5.js"
   ]
 }
